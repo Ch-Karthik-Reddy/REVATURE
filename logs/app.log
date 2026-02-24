@@ -1,0 +1,439 @@
+
+2026-01-30 10:53:43 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-01-30 10:55:13 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: karthik@gmail.com
+2026-01-30 10:55:13 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 1
+2026-01-30 10:55:13 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for karthik@gmail.com
+2026-01-30 10:56:11 [main] INFO  com.revpay.service.UserService -  User Logged In: karthik@gmail.com
+2026-01-30 10:57:18 [main] INFO  com.revpay.dao.PaymentMethodDAO -   Payment Method Added: DEBIT ending in ****3456 for User ID 1
+2026-01-30 11:00:23 [main] FATAL com.revpay.Main -   Critical Application Crash
+java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at com.revpay.Main.showUserDashboard(Main.java:188) ~[classes/:?]
+	at com.revpay.Main.handleLogin(Main.java:128) ~[classes/:?]
+	at com.revpay.Main.main(Main.java:102) [classes/:?]
+2026-02-01 15:55:28 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-01 15:57:15 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-01 15:57:42 [main] WARN  com.revpay.service.UserService - Login Failed: Account not found for email karthik123@gmail.com
+2026-02-01 15:58:49 [main] INFO  com.revpay.service.UserService -  User Logged In: karthik@gmail.com
+2026-02-01 15:59:44 [main] INFO  com.revpay.dao.TransactionDAO -   Deposit Successful: $7500 for User ID 1
+2026-02-02 10:09:03 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:09:04 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: biz1770007142404@business.com
+2026-02-02 10:09:04 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 2
+2026-02-02 10:09:04 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for biz1770007142404@business.com
+2026-02-02 10:09:04 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:09:04 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:09:04 [main] WARN  com.revpay.service.UserService - Login Failed: Account not found for email wrong@mail.com
+2026-02-02 10:09:04 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:09:04 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:09:05 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: user1770007144882@personal.com
+2026-02-02 10:09:05 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 3
+2026-02-02 10:09:05 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for user1770007144882@personal.com
+2026-02-02 10:09:05 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:10:12 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:10:14 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: biz1770007211332@business.com
+2026-02-02 10:10:14 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 4
+2026-02-02 10:10:14 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for biz1770007211332@business.com
+2026-02-02 10:10:14 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:10:14 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:10:14 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: sender1770007214389@test.com
+2026-02-02 10:10:14 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 5
+2026-02-02 10:10:14 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for sender1770007214389@test.com
+2026-02-02 10:10:15 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: receiver1770007214389@test.com
+2026-02-02 10:10:15 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 6
+2026-02-02 10:10:15 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for receiver1770007214389@test.com
+2026-02-02 10:10:15 [main] INFO  com.revpay.service.UserService -  User Logged In: sender1770007214389@test.com
+2026-02-02 10:10:15 [main] INFO  com.revpay.dao.PaymentMethodDAO -   Payment Method Added: DEBIT ending in ****5678 for User ID 5
+2026-02-02 10:10:15 [main] INFO  com.revpay.dao.TransactionDAO -   Deposit Successful: $500 for User ID 5
+2026-02-02 10:10:15 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 5 -> 6 ($200)
+2026-02-02 10:10:15 [main] INFO  com.revpay.dao.TransactionDAO -   Transfer Successful: $200 from ID 5 to ID 6
+2026-02-02 10:10:16 [main] INFO  com.revpay.service.UserService -  User Logged In: receiver1770007214389@test.com
+2026-02-02 10:10:16 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:10:16 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:10:16 [main] WARN  com.revpay.service.UserService - Login Failed: Account not found for email wrong@mail.com
+2026-02-02 10:10:16 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:10:16 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:10:16 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: user1770007216373@personal.com
+2026-02-02 10:10:16 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 7
+2026-02-02 10:10:16 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for user1770007216373@personal.com
+2026-02-02 10:10:16 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:12:32 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:12:33 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: req1770007351040@pm.com
+2026-02-02 10:12:33 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 8
+2026-02-02 10:12:33 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for req1770007351040@pm.com
+2026-02-02 10:12:33 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: payer1770007351040@pm.com
+2026-02-02 10:12:33 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 9
+2026-02-02 10:12:33 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for payer1770007351040@pm.com
+2026-02-02 10:12:34 [main] INFO  com.revpay.service.UserService -  User Logged In: req1770007351040@pm.com
+2026-02-02 10:12:34 [main] INFO  com.revpay.dao.RequestDAO -   Payment Request Created: User 8 asked User 9 for $75
+2026-02-02 10:12:34 [main] INFO  com.revpay.service.UserService -  User Logged In: payer1770007351040@pm.com
+2026-02-02 10:12:34 [main] INFO  com.revpay.dao.PaymentMethodDAO -   Payment Method Added: CREDIT ending in ****3456 for User ID 9
+2026-02-02 10:12:35 [main] INFO  com.revpay.dao.TransactionDAO -   Deposit Successful: $100 for User ID 9
+2026-02-02 10:12:35 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 9 -> 8 ($75.00)
+2026-02-02 10:12:35 [main] INFO  com.revpay.dao.TransactionDAO -   Transfer Successful: $75.00 from ID 9 to ID 8
+2026-02-02 10:12:35 [main] INFO  com.revpay.dao.RequestDAO -   Request ID 1 updated to status: ACCEPTED
+2026-02-02 10:12:35 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:12:35 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:12:35 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: bizloan1770007355183@loan.com
+2026-02-02 10:12:35 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 10
+2026-02-02 10:12:35 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for bizloan1770007355183@loan.com
+2026-02-02 10:12:36 [main] INFO  com.revpay.service.UserService -  User Logged In: bizloan1770007355183@loan.com
+2026-02-02 10:12:36 [main] INFO  com.revpay.dao.LoanDAO -   Loan Application Submitted: User ID 10 requested $10000
+2026-02-02 10:12:36 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:12:36 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:12:36 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: poor1770007356204@edge.com
+2026-02-02 10:12:36 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 11
+2026-02-02 10:12:36 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for poor1770007356204@edge.com
+2026-02-02 10:12:37 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: rich1770007356204@edge.com
+2026-02-02 10:12:37 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 12
+2026-02-02 10:12:37 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for rich1770007356204@edge.com
+2026-02-02 10:12:37 [main] INFO  com.revpay.service.UserService -  User Logged In: poor1770007356204@edge.com
+2026-02-02 10:12:37 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 11 -> 12 ($500)
+2026-02-02 10:12:37 [main] WARN  com.revpay.dao.TransactionDAO -  ️ Transfer Failed: Insufficient funds for User ID 11
+2026-02-02 10:12:37 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:12:37 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:12:38 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: dup1770007357669@dup.com
+2026-02-02 10:12:38 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 13
+2026-02-02 10:12:38 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for dup1770007357669@dup.com
+2026-02-02 10:12:38 [main] WARN  com.revpay.dao.UserDAO -  ️ Registration attempt failed: Email 'dup1770007357669@dup.com' already exists.
+2026-02-02 10:12:38 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:12:38 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:12:39 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: biz1770007358612@invoice.com
+2026-02-02 10:12:39 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 15
+2026-02-02 10:12:39 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for biz1770007358612@invoice.com
+2026-02-02 10:12:39 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: cust1770007358612@invoice.com
+2026-02-02 10:12:39 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 16
+2026-02-02 10:12:39 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for cust1770007358612@invoice.com
+2026-02-02 10:12:40 [main] INFO  com.revpay.service.UserService -  User Logged In: biz1770007358612@invoice.com
+2026-02-02 10:12:40 [main] INFO  com.revpay.dao.InvoiceDAO -   Invoice Created: $150 for cust1770007358612@invoice.com
+2026-02-02 10:12:40 [main] INFO  com.revpay.service.UserService -  User Logged In: cust1770007358612@invoice.com
+2026-02-02 10:12:40 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:12:40 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: test_biz_1770007360608@revpay.com
+2026-02-02 10:12:40 [main] INFO  com.revpay.dao.InvoiceDAO -   Invoice Created: $99.99 for customer_1770007360664@example.com
+2026-02-02 10:12:40 [main] INFO  com.revpay.dao.InvoiceDAO -   Invoice #2 marked as PAID.
+2026-02-02 10:12:40 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 17
+2026-02-02 10:12:40 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 17 Deleted Successfully.
+2026-02-02 10:12:40 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: loan_test_1770007360819@revpay.com
+2026-02-02 10:12:40 [main] INFO  com.revpay.dao.LoanDAO -   Loan Application Submitted: User ID 18 requested $15000.00
+2026-02-02 10:12:40 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 18
+2026-02-02 10:12:40 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 18 Deleted Successfully.
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: card_test_1770007360969@revpay.com
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.PaymentMethodDAO -   Payment Method Added: CREDIT ending in ****5678 for User ID 19
+2026-02-02 10:12:41 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 19
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 19 Deleted Successfully.
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: req_1770007361109@revpay.com
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: pay_1770007361159@revpay.com
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.RequestDAO -   Payment Request Created: User 20 asked User 21 for $50.00
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.RequestDAO -   Request ID 2 updated to status: ACCEPTED
+2026-02-02 10:12:41 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 20
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 20 Deleted Successfully.
+2026-02-02 10:12:41 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 21
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 21 Deleted Successfully.
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: sender_1770007361350@revpay.com
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: receiver_1770007361419@revpay.com
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.TransactionDAO -   Deposit Successful: $100.00 for User ID 22
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.TransactionDAO -   Transfer Successful: $40.00 from ID 22 to ID 23
+2026-02-02 10:12:41 [main] WARN  com.revpay.dao.TransactionDAO -  ️ Transfer Failed: Insufficient funds for User ID 22
+2026-02-02 10:12:41 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 22
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 22 Deleted Successfully.
+2026-02-02 10:12:41 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 23
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 23 Deleted Successfully.
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: lifecycle_test_1770007361697@revpay.com
+2026-02-02 10:12:41 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 24
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 24 Deleted Successfully.
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: wallet_test_1770007361819@revpay.com
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 25
+2026-02-02 10:12:41 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 25
+2026-02-02 10:12:41 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 25 Deleted Successfully.
+2026-02-02 10:12:41 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:12:41 [main] FATAL com.revpay.Main -   Critical Application Crash
+java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1660) ~[?:?]
+	at com.revpay.Main.main(Main.java:98) [classes/:?]
+	at com.revpay.test.MainTest.testAppStartupAndExit(MainTest.java:37) [test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316) [surefire-junit4-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240) [surefire-junit4-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214) [surefire-junit4-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155) [surefire-junit4-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.2.5.jar:3.2.5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.2.5.jar:3.2.5]
+2026-02-02 10:12:42 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:12:42 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: biz1770007362143@business.com
+2026-02-02 10:12:42 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 26
+2026-02-02 10:12:42 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for biz1770007362143@business.com
+2026-02-02 10:12:42 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:12:42 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:12:43 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: sender1770007362683@test.com
+2026-02-02 10:12:43 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 27
+2026-02-02 10:12:43 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for sender1770007362683@test.com
+2026-02-02 10:12:43 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: receiver1770007362683@test.com
+2026-02-02 10:12:43 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 28
+2026-02-02 10:12:43 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for receiver1770007362683@test.com
+2026-02-02 10:12:44 [main] INFO  com.revpay.service.UserService -  User Logged In: sender1770007362683@test.com
+2026-02-02 10:12:44 [main] INFO  com.revpay.dao.PaymentMethodDAO -   Payment Method Added: DEBIT ending in ****5678 for User ID 27
+2026-02-02 10:12:44 [main] INFO  com.revpay.dao.TransactionDAO -   Deposit Successful: $500 for User ID 27
+2026-02-02 10:12:44 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 27 -> 28 ($200)
+2026-02-02 10:12:44 [main] INFO  com.revpay.dao.TransactionDAO -   Transfer Successful: $200 from ID 27 to ID 28
+2026-02-02 10:12:44 [main] INFO  com.revpay.service.UserService -  User Logged In: receiver1770007362683@test.com
+2026-02-02 10:12:44 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:12:44 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:12:44 [main] WARN  com.revpay.service.UserService - Login Failed: Account not found for email wrong@mail.com
+2026-02-02 10:12:44 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:12:44 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: user1770007364712@personal.com
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 29
+2026-02-02 10:12:45 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for user1770007364712@personal.com
+2026-02-02 10:12:45 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: service_sender_1770007365161@test.com
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 30
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: service_receiver_1770007365270@test.com
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 31
+2026-02-02 10:12:45 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 30 -> 31 ($100.00)
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.TransactionDAO -   Transfer Successful: $100.00 from ID 30 to ID 31
+2026-02-02 10:12:45 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 30
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 30 Deleted Successfully.
+2026-02-02 10:12:45 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 31
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 31 Deleted Successfully.
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: service_sender_1770007365444@test.com
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 32
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: service_receiver_1770007365520@test.com
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 33
+2026-02-02 10:12:45 [main] WARN  com.revpay.service.TransactionService - Invalid Transfer: User 32 attempted to send money to themselves.
+2026-02-02 10:12:45 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 32
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 32 Deleted Successfully.
+2026-02-02 10:12:45 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 33
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 33 Deleted Successfully.
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: service_sender_1770007365645@test.com
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 34
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: service_receiver_1770007365742@test.com
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 35
+2026-02-02 10:12:45 [main] WARN  com.revpay.service.TransactionService - Invalid Transfer: User 34 attempted to send non-positive amount: 0
+2026-02-02 10:12:45 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 34
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 34 Deleted Successfully.
+2026-02-02 10:12:45 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 35
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 35 Deleted Successfully.
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: service_sender_1770007365890@test.com
+2026-02-02 10:12:45 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 36
+2026-02-02 10:12:46 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: service_receiver_1770007365997@test.com
+2026-02-02 10:12:46 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 37
+2026-02-02 10:12:46 [main] WARN  com.revpay.service.TransactionService - Invalid Transfer: User 36 attempted to send non-positive amount: -50.00
+2026-02-02 10:12:46 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 36
+2026-02-02 10:12:46 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 36 Deleted Successfully.
+2026-02-02 10:12:46 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 37
+2026-02-02 10:12:46 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 37 Deleted Successfully.
+2026-02-02 10:12:46 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: auth_test_1770007366150@revpay.com
+2026-02-02 10:12:46 [main] INFO  com.revpay.dao.WalletDAO - ✅ Wallet created for User ID: 38
+2026-02-02 10:12:46 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for auth_test_1770007366150@revpay.com
+2026-02-02 10:12:47 [main] INFO  com.revpay.service.UserService -  User Logged In: auth_test_1770007366150@revpay.com
+2026-02-02 10:12:47 [main] WARN  com.revpay.service.UserService - Login Failed: Invalid password for email auth_test_1770007366150@revpay.com
+2026-02-02 10:12:47 [main] INFO  com.revpay.service.UserService - 🗑️ Deleting account for User ID: 38
+2026-02-02 10:12:47 [main] WARN  com.revpay.dao.UserDAO - ⚠️ Attempting to delete User ID: 38
+2026-02-02 10:12:47 [main] INFO  com.revpay.dao.UserDAO - ✅ User ID 38 Deleted Successfully.
+2026-02-10 16:49:57 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-10 16:50:56 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: kartik@gmail.com
+2026-02-10 16:50:57 [main] ERROR com.revpay.dao.WalletDAO - ❌ Failed to create wallet for User ID: 1
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SYSTEM.SYS_C004123) violated
+
+https://docs.oracle.com/error-help/db/ora-00001/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1330) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1102) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:456) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:498) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:272) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1451) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1958) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1594) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3754) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4100) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4071) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:997) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at com.revpay.dao.WalletDAO.createWallet(WalletDAO.java:46) [classes/:?]
+	at com.revpay.service.UserService.registerUser(UserService.java:73) [classes/:?]
+	at com.revpay.Main.handleRegister(Main.java:156) [classes/:?]
+	at com.revpay.Main.main(Main.java:101) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00001: unique constraint (SYSTEM.SYS_C004123) violated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	... 17 more
+2026-02-10 16:50:57 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for kartik@gmail.com
+2026-02-10 16:51:19 [main] INFO  com.revpay.service.UserService -  User Logged In: kartik@gmail.com
+2026-02-11 09:53:30 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-11 09:54:44 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: karthik@gmail.com
+2026-02-11 09:54:44 [main] ERROR com.revpay.dao.WalletDAO - ❌ Failed to create wallet for User ID: 2
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SYSTEM.SYS_C004123) violated
+
+https://docs.oracle.com/error-help/db/ora-00001/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1330) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1102) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:456) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:498) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:272) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1451) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1958) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1594) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3754) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4100) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4071) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:997) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at com.revpay.dao.WalletDAO.createWallet(WalletDAO.java:46) [classes/:?]
+	at com.revpay.service.UserService.registerUser(UserService.java:73) [classes/:?]
+	at com.revpay.Main.handleRegister(Main.java:156) [classes/:?]
+	at com.revpay.Main.main(Main.java:101) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00001: unique constraint (SYSTEM.SYS_C004123) violated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	... 17 more
+2026-02-11 09:54:44 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for karthik@gmail.com
+2026-02-11 09:55:36 [main] INFO  com.revpay.service.UserService -  User Logged In: karthik@gmail.com
+2026-02-11 09:57:05 [main] INFO  com.revpay.dao.PaymentMethodDAO -   Payment Method Added: DEBIT ending in ****3456 for User ID 2
+2026-02-11 09:57:40 [main] INFO  com.revpay.dao.TransactionDAO -   Deposit Successful: $7500 for User ID 2
+2026-02-11 10:02:28 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-11 10:03:29 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: revshop@gmail.com
+2026-02-11 10:03:29 [main] ERROR com.revpay.dao.WalletDAO - ❌ Failed to create wallet for User ID: 3
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SYSTEM.SYS_C004123) violated
+
+https://docs.oracle.com/error-help/db/ora-00001/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1330) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1102) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:456) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:498) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:272) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1451) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1958) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1594) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3754) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4100) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4071) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:997) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at com.revpay.dao.WalletDAO.createWallet(WalletDAO.java:46) [classes/:?]
+	at com.revpay.service.UserService.registerUser(UserService.java:73) [classes/:?]
+	at com.revpay.Main.handleRegister(Main.java:156) [classes/:?]
+	at com.revpay.Main.main(Main.java:101) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00001: unique constraint (SYSTEM.SYS_C004123) violated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	... 17 more
+2026-02-11 10:03:29 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for revshop@gmail.com
+2026-02-11 10:03:44 [main] WARN  com.revpay.service.UserService - Login Failed: Account not found for email revshp@gmail.com
+2026-02-11 10:04:03 [main] INFO  com.revpay.service.UserService -  User Logged In: revshop@gmail.com
+2026-02-11 10:04:37 [main] INFO  com.revpay.dao.LoanDAO -   Loan Application Submitted: User ID 3 requested $1000000
+2026-02-11 10:47:16 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: ananthsai14@gmail.com
+2026-02-11 10:47:16 [main] ERROR com.revpay.dao.WalletDAO - ❌ Failed to create wallet for User ID: 4
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SYSTEM.SYS_C004123) violated
+
+https://docs.oracle.com/error-help/db/ora-00001/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1330) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1102) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:456) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:498) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:272) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1451) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1958) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1594) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3754) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4100) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4071) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:997) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at com.revpay.dao.WalletDAO.createWallet(WalletDAO.java:46) [classes/:?]
+	at com.revpay.service.UserService.registerUser(UserService.java:73) [classes/:?]
+	at com.revpay.Main.handleRegister(Main.java:156) [classes/:?]
+	at com.revpay.Main.main(Main.java:101) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00001: unique constraint (SYSTEM.SYS_C004123) violated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	... 17 more
+2026-02-11 10:47:16 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for ananthsai14@gmail.com
+2026-02-11 10:47:41 [main] INFO  com.revpay.service.UserService -  User Logged In: ananthsai14@gmail.com
+2026-02-11 15:12:54 [main] INFO  com.revpay.service.UserService -  User Logged In: kartik@gmail.com
+2026-02-11 15:13:56 [main] INFO  com.revpay.dao.PaymentMethodDAO -   Payment Method Added: DEBIT ending in ****1111 for User ID 1
+2026-02-11 15:14:18 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 1 -> 2 ($500)
+2026-02-11 15:14:18 [main] WARN  com.revpay.dao.TransactionDAO -  ️ Transfer Failed: Insufficient funds for User ID 1
+2026-02-11 15:14:39 [main] INFO  com.revpay.dao.TransactionDAO -   Deposit Successful: $2000 for User ID 1
+2026-02-11 15:14:55 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 1 -> 2 ($500)
+2026-02-11 15:14:55 [main] INFO  com.revpay.dao.TransactionDAO -   Transfer Successful: $500 from ID 1 to ID 2
+2026-02-11 15:45:28 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-11 15:46:09 [main] INFO  com.revpay.dao.UserDAO -   New User Registered: John@gmail.com
+2026-02-11 15:46:10 [main] ERROR com.revpay.dao.WalletDAO - ❌ Failed to create wallet for User ID: 5
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SYSTEM.SYS_C004123) violated
+
+https://docs.oracle.com/error-help/db/ora-00001/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1330) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1102) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:456) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:498) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:272) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1451) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1958) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1594) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3754) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4100) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4071) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:997) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	at com.revpay.dao.WalletDAO.createWallet(WalletDAO.java:46) [classes/:?]
+	at com.revpay.service.UserService.registerUser(UserService.java:73) [classes/:?]
+	at com.revpay.Main.handleRegister(Main.java:155) [classes/:?]
+	at com.revpay.Main.main(Main.java:100) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00001: unique constraint (SYSTEM.SYS_C004123) violated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710) ~[ojdbc11-23.3.0.23.09.jar:23.3.0.23.09]
+	... 17 more
+2026-02-11 15:46:10 [main] INFO  com.revpay.service.UserService -  Registration Complete: Wallet created for John@gmail.com
+2026-02-11 15:46:27 [main] INFO  com.revpay.service.UserService -  User Logged In: karthik@gmail.com
+2026-02-11 15:46:48 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 2 -> 1 ($500)
+2026-02-11 15:46:48 [main] INFO  com.revpay.dao.TransactionDAO -   Transfer Successful: $500 from ID 2 to ID 1
+2026-02-11 15:47:30 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 2 -> 1 ($500)
+2026-02-11 15:47:31 [main] INFO  com.revpay.dao.TransactionDAO -   Transfer Successful: $500 from ID 2 to ID 1
+2026-02-11 15:48:06 [main] WARN  com.revpay.service.UserService - User lookup failed: kartik@gmai.com
+2026-02-11 15:48:26 [main] INFO  com.revpay.dao.RequestDAO -   Payment Request Created: User 2 asked User 1 for $2000
+2026-02-11 15:48:44 [main] WARN  com.revpay.service.UserService - Login Failed: Account not found for email kartik@gamil.com
+2026-02-11 15:49:08 [main] INFO  com.revpay.service.UserService -  User Logged In: kartik@gmail.com
+2026-02-11 15:50:22 [main] INFO  com.revpay.service.UserService -  User Logged In: revshop@gmail.com
+2026-02-11 15:53:51 [main] INFO  com.revpay.dao.InvoiceDAO -   Invoice Created: $500 for kartik@gmail.com
+2026-02-11 15:55:23 [main] INFO  com.revpay.Main -  Application Stopped by User
+2026-02-11 15:56:05 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-11 15:56:50 [main] WARN  com.revpay.dao.UserDAO -  ️ Registration attempt failed: Email 'ananthsai14@gmail.com' already exists.
+2026-02-11 15:57:12 [main] INFO  com.revpay.service.UserService -  User Logged In: ananthsai14@gmail.com
+2026-02-11 15:57:36 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 4 -> 1 ($10000)
+2026-02-11 15:57:36 [main] WARN  com.revpay.dao.TransactionDAO -  ️ Transfer Failed: Insufficient funds for User ID 4
+2026-02-11 15:58:28 [main] INFO  com.revpay.dao.PaymentMethodDAO -   Payment Method Added: CREDIT ending in ****3456 for User ID 4
+2026-02-11 15:58:52 [main] INFO  com.revpay.dao.TransactionDAO -   Deposit Successful: $50000 for User ID 4
+2026-02-11 15:59:11 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 4 -> 1 ($10000)
+2026-02-11 15:59:11 [main] INFO  com.revpay.dao.TransactionDAO -   Transfer Successful: $10000 from ID 4 to ID 1
+2026-02-11 16:01:18 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-11 16:01:37 [main] WARN  com.revpay.service.UserService - Login Failed: Invalid password for email ananthsai14@gmail.com
+2026-02-11 16:02:00 [main] INFO  com.revpay.service.UserService -  User Logged In: ananthsai14@gmail.com
+2026-02-11 16:02:40 [main] INFO  com.revpay.service.UserService -  User Logged In: kartik@gmail.com
+2026-02-11 16:03:08 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-11 16:12:31 [main] INFO  com.revpay.Main -   RevPay Application Started
+2026-02-11 16:13:02 [main] INFO  com.revpay.service.UserService -  User Logged In: ananthsai14@gmail.com
+2026-02-11 16:13:36 [main] INFO  com.revpay.service.TransactionService - Initiating Transfer: 4 -> 1 ($20000)
+2026-02-11 16:13:36 [main] INFO  com.revpay.dao.TransactionDAO -   Transfer Successful: $20000 from ID 4 to ID 1
